@@ -7,7 +7,7 @@ Easy to get started, First run these:
 `cd backend --> pip3 install`
 `cd frontend --> npm install`
 
-Thats it now run the development server:
+Thats it, now run the development server:
 
 ```bash
 npm run dev
