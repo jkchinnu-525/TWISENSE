@@ -4,8 +4,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 Easy to get started,First run these:
 
-cd backend --> pip3 install
-cd frontend --> npm install
+`cd backend --> pip3 install`
+`cd frontend --> npm install`
 
 Thats it now run the development server:
 
