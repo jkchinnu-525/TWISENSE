@@ -15,9 +15,9 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","https://twisense-ui.vercel.app"],
+    allow_origins=["http://localhost:3000","https://twisense.vercel.app"],
     allow_methods=["*"],
-    allow_headers=["*"]
+    allow_headers=["*"],
 )
 
 # Initializes Twitter client
@@ -28,6 +28,10 @@ client = tweepy.Client(
 classifier = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
 
 last_api_call = {}
+
+@app.options("/predict")
+async def options_predict():
+    return {}
 
 @app.post("/predict")
 async def predict_sentiment(request: schemas.TextRequest):
