@@ -24,6 +24,7 @@ export default function Feature1() {
     baseURL: process.env.NEXT_PUBLIC_URL,
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "https://twisense.vercel.app",
     },
   });
 
