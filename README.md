@@ -5,8 +5,6 @@
 
 A real-time social media sentiment analysis dashboard that analyzes Twitter data and user input using AI. Built with Next.js (frontend) and Python/FastAPI (backend), deployed via Docker.
 
-![Dashboard Preview](https://via.placeholder.com/800x400.png?text=Sentiment+Analysis+Dashboard)
-
 ## Features ✨
 
 - **Sentiment Prediction**  
@@ -80,7 +78,8 @@ A real-time social media sentiment analysis dashboard that analyzes Twitter data
 
 4. **Run With Docker**
    ```bash
-   docker build -t any_name
+   docker build -t image_name
+   docker -p 8000:8000 image_name
    ```
 
 This README provides:
