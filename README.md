@@ -7,15 +7,24 @@ A real-time social media sentiment analysis dashboard that analyzes Twitter data
 
 ## Features ✨
 
-- **Sentiment Prediction**  
+- **Sentiment Prediction**
+
   Analyze text input for positive/neutral/negative sentiment using BERT NLP model
-- **Real-Time Tweets**  
+
+- **Real-Time Tweets**
+
   Fetch and analyze latest tweets about any topic (e.g., #Bitcoin, #AI)
-- **Interactive Dashboard**  
+
+- **Interactive Dashboard**
+
   Visualize sentiment distribution with dynamic charts
-- **PDF Export**  
+
+- **PDF Export**
+
   Download analysis reports as PDF
-- **Responsive Design**  
+
+- **Responsive Design**
+
   Works seamlessly on desktop and mobile
 
 ## Tech Stack 🛠️
