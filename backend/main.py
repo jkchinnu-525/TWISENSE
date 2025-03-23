@@ -29,9 +29,6 @@ classifier = pipeline("sentiment-analysis", model="distilbert-base-uncased-finet
 
 last_api_call = {}
 
-@app.options("/predict")
-async def options_predict():
-    return {}
 
 @app.post("/predict")
 async def predict_sentiment(request: schemas.TextRequest):
