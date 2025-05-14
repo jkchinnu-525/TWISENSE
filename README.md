@@ -87,16 +87,6 @@ A real-time social media sentiment analysis dashboard that analyzes Twitter data
 
 4. **Run With Docker**
    ```bash
-   docker build -t image_name
-   docker -p 8000:8000 image_name
+   docker build -t image_name .
+   docker run -p 8000:8000 image_name
    ```
-
-This README provides:
-
-- Clear project overview
-- Badges for deployment status
-- Visual tech stack representation
-- Easy setup instructions for both local and cloud
-- API documentation
-- Contribution guidelines
-- License information
